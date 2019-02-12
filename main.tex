@@ -1,0 +1,85 @@
+\documentclass[11pt,a4paper,final]{moderncv}
+
+\moderncvtheme[blue]{classic}
+\usepackage[utf8]{inputenc}
+
+\usepackage[top=0.5cm, bottom=0.5cm, left=0.5cm, right=0.5cm]{geometry}
+\recomputelengths
+\usepackage{graphicx}
+
+\firstname{Antoine}
+\familyname{Dalmières}
+\title{Ingénieur Arts \& Métiers}
+\address{143 Grande Rue}{92310 Sèvres}
+\mobile{06 20 62 91 48}
+%\phone{}                
+%\fax{Votre Fax}                      
+\email{antoine.dalmieres@gadz.org}
+\extrainfo{Permis B + véhicule}
+\extrainfo{34 ans}
+%\photo{photo.jpg}
+%\quote{Objectif: Intégrer une équipe au sein d'un projet en tant que développeur logiciel.}         
+\makeatletter
+\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+\makeatother
+
+\usepackage{multibib}
+\newcites{book,misc}{{Books},{Others}}
+
+\nopagenumbers{}                         
+\begin{document}
+\maketitle
+
+\section{Expériences professionnelles}
+
+\subsection{Groupe Covéa}
+
+\cventry{2015 -- 2018}{Innovation \& digital}{Covéa}{Levallois-Perret}{}{}
+\cvlistitem{Référent blockchain : veille, étude, trois projets dont deux en partenariat avec l'IRT SystemX, co-inventeur d'un brevet conjoint PSA|IRT|Covéa}
+\cvlistitem{Veille écosystème startup et mise en relation avec les directions métiers}
+\cvlistitem{Évangélisation sur les sujets de la révolution numérique : blockchain, progressive web app, intelligence artificielle, robotic process automation, Initial Coin Offering, ...}
+
+\cventry{2014 -- 2015}{Chargé d'étude socle big data Covéa}{MMA}{Le Mans}{}{}
+\cvlistitem{Benchmark solution d'ingestion compatible Hadoop}
+\cvlistitem{Conception \& développement de modules d'ingestion de donnée}
+
+\cventry{2014}{Chargé d'étude POC big data}{MMA}{Le Mans}{Première expérimentation big data chez Covéa}{}
+
+\cventry{2012 -- 2014}{Chargé d'étude maîtrise d'\oe{}uvre}{MMA}{Le Mans}{Plateforme collaborative}{}
+\cvlistitem{Cahier des charges}
+\cvlistitem{Définition, suivi, validation des performances}
+\cvlistitem{Formation des supports niveau 1}
+
+\cventry{2010 -- 2012}{Pilotage du SI}{MMA}{Le Mans}{}{}
+
+\subsection{Autres}
+
+\cventry{2009 -- 2010}{Prestation}{NSIS}{Le Mans}{}{Mission à la direction informatique des Mutuelles du Mans Assurance}
+
+\cventry{2008}{Projet de fin d'étude}{Nanjing University of Aeronautics and Astronotics}{Nanjing -- Chine}{}{Optimisation d'un programme de simulation de la diffusion de Rayleight / théorie de Mie d'aérosols}
+
+\section{Diplômes \& formations}
+
+\cventry{2005 -- 2008}{Diplôme d'ingénieur}{Ecole Nationnale des Arts \& Métiers}{}{}{}
+\cvlistitem{Cursus franco-chinois -- huits mois passé en Chine}
+\cvlistitem{Cursus management de l'innovation}
+\cventry{2003 -- 2005}{CPGE PT/PTSi}{Lycée Gabriel Touchard}{Le Mans}{}{}
+\cventry{2003}{Baccalauréat scientifique}{Lycée Gabriel Touchard}{Le Mans}{}{}
+
+\section{Compétences informatiques}
+
+\cvcomputer{Bureautique}{MS Office, Libre Office}{}{}
+\cvcomputer{OS}{Windows, Linux, Mac}{}{}
+\cvcomputer{Dev}{Git (notion), Python (notions), Pandas (notions), Jupyter (notions)}{}{}
+
+\section{Langues}
+
+\cvlanguage{Français}{Langue maternelle}{}
+\cvlanguage{Anglais}{Compétence professionnelle}{}
+
+\section{Extra-professionnel}
+
+\cvline{Musique}{Guitare}
+\cvline{Sport}{Vélo, Roller (3 participations aux 24h roller)}
+
+\end{document}
